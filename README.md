@@ -21,7 +21,9 @@ After running the action you'll get additonal secrets created in your repository
 2. `ANDROID_KEYSTORE_BASE64`: base64 value of your PKCS12 keystore
 3. `ANDROID_KEYSTORE_JKS_BASE64`: base64 value of your JKS keystore
 
-With all of those secrets, you can now use your .keystore as you see fit in other Github Actions. See [this repository](https://github.com/starburst997/android-code-sign) for an example.
+With all of those secrets, you can now use your .keystore as you see fit in other Github Actions. 
+
+See [this repository](https://github.com/starburst997/android-code-sign) for an example.
 
 ## Create workflow file
 
