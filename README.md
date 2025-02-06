@@ -21,13 +21,13 @@ After running the action you'll get additonal secrets created in your repository
 2. `ANDROID_KEYSTORE_BASE64`: base64 value of your PKCS12 keystore
 3. `ANDROID_KEYSTORE_JKS_BASE64`: base64 value of your JKS keystore
 
-With all of the secrets you can now use your .keystore as you see fit in other Github Actions.
+With all of those secrets, you can now use your .keystore as you see fit in other Github Actions.
 
 ## Create workflow file
 
 Create a workflow file in your repository (`.github/workflows/keystore.yml`) and reference this workflow (you can always copy the original)
 
-keystore.yml ([original](https://github.com/starburst997/keystore-gh-actions/blob/v1/.github/workflows/keystore.yml))
+#### keystore.yml ([original](https://github.com/starburst997/keystore-gh-actions/blob/v1/.github/workflows/keystore.yml))
 ```yml
 name: Generate .keystore
 
