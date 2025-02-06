@@ -37,9 +37,6 @@ on:
       alias:
         type: string
         description: Alias (anything you want)
-      #password:
-      #  type: password
-      #  description: Password
       name:
         type: string
         description: Your Name
@@ -76,7 +73,6 @@ jobs:
     secrets: inherit
     with:
       alias: ${{ inputs.alias }}
-      #password: ${{ inputs.password }}
       name: ${{ inputs.name }}
       organization: ${{ inputs.organization }}
       locality: ${{ inputs.locality }}
